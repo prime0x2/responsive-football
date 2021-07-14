@@ -508,7 +508,7 @@ html, body {
 
 @media only screen and (max-width: 480px) {
     
-    .header-bar, .news-section, .footer-bar {
+    .header-bar {
         display: none;
     }
     
@@ -612,5 +612,26 @@ html, body {
     
     .match-teams h2 {
         font-size: 14px;
+    }
+    
+    .news-container h1 {
+        font-size: 50px;
+    }
+    
+    .news-boxes {
+        display: grid;
+        width: 100%;
+        margin: 0 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+    
+    .news-box {
+        margin: 0 5% auto;
+    }
+    
+    .footer-container img {
+        width: 80%;
+        height: auto;
     }
 }

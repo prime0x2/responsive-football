@@ -239,50 +239,6 @@ html, body {
 
 
 
-/*-------------- footer-section styles --------------*/
-
-.footer-bar {
-    width: 100%;
-    height: auto;
-}
-
-.footer-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-    margin-bottom: 50px;
-}
-
-.footer-container img {
-    width: 483px;
-    height: 110px;
-    display: block;
-    margin: 0 auto;
-}
-
-.footer-container div {
-    display: block;
-    text-align: center;
-}
-
-.footer-container div p {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.footer-container div > i {
-    padding: 8px;
-    font-size: 20px;
-    border-radius: 50px;
-    margin: 20px 7px;
-    background-color: #E7E7E8;
-    color: #969BAB;
-}
-
-
-
 /*-------------- result-section styles --------------*/
 
 .result-section {
@@ -496,6 +452,49 @@ html, body {
     padding: 0 8px;
 }
 
+
+
+/*-------------- footer-section styles --------------*/
+
+.footer-bar {
+    width: 100%;
+    height: auto;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.footer-container img {
+    width: 483px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    display: block;
+    text-align: center;
+}
+
+.footer-container div p {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-container div > i {
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 20px 7px;
+    background-color: #E7E7E8;
+    color: #969BAB;
+}
 
 
 
